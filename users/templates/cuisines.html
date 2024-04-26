@@ -1,0 +1,113 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+<script src="{% static 'js/scripts.js' %}"></script>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Cuisines | Phagyul</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fdf6e4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ffad60;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .cuisine {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .cuisine h2 {
+            margin-top: 0;
+        }
+        .cuisine img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #ffad60;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Indian Cuisines</h1>
+    </div>
+
+    <div class="container">
+        <!-- Cuisine Section -->
+        <div class="cuisine">
+            <h2>North Indian Cuisine</h2>
+            <img src="https://th.bing.com/th/id/OIP.F0wSkwfP1ODfH1-tLW9O4gHaD-?w=322&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="North Indian Cuisine">
+            <p> Known for its rich, creamy gravies, tandoori dishes, and bread like naan and roti. North Indian cuisine often uses dairy products like ghee and paneer extensively. Dishes like butter chicken, tandoori chicken, and various types of kebabs are popular in this region.</p>
+        </div>
+
+        <!-- Add more cuisine sections here -->
+         <div class="cuisine">
+            <h2>South Indian Cuisine</h2>
+            <img src="https://th.bing.com/th/id/OIP.qcGu4nx1n-BgdM_tQV8w2wHaE8?w=299&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="North Indian Cuisine">
+            <p> Characterized by its generous use of rice, lentils, coconut, and spices like curry leaves, mustard seeds, and dried red chilies. South Indian cuisine includes dishes like dosa, idli, sambhar, and rasam. It tends to be lighter and often vegetarian compared to North Indian cuisine.</p>
+        </div>
+
+         <div class="cuisine">
+            <h2>East Indian Cuisine</h2>
+            <img src=" https://th.bing.com/th/id/OIP.D_EjaCiXhxW5k5a3bdnF6gHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="North Indian Cuisine">
+            <p>Influenced by its proximity to neighboring countries like Bangladesh and Myanmar, East Indian cuisine is known for its use of fish, rice, and mustard oil. Dishes like fish curry, pitha (rice cakes), and various chutneys are common in this region.</p>
+        </div>
+
+         <div class="cuisine">
+            <h2>West Indian Cuisine</h2>
+            <img src="https://th.bing.com/th/id/OIP.l076MGKqryAAnkjGcDef9gHaF8?w=240&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="North Indian Cuisine">
+            <p> Known for its vibrant flavors and eclectic mix of ingredients. West Indian cuisine includes dishes from Gujarat, Maharashtra, and Goa. Gujarati cuisine is predominantly vegetarian, with dishes like dhokla and thepla being popular. Maharashtrian cuisine features spicy curries, street foods like vada pav, and seafood specialties in coastal areas. Goan cuisine is influenced by Portuguese colonization and is famous for its use of coconut, seafood, and spices in dishes like vindaloo and xacuti.</p>
+        </div>
+
+         <div class="cuisine">
+            <h2>Punjabi Cuisine</h2>
+            <img src=" https://th.bing.com/th/id/OIP.0n2g_e8vvj7I7Q2_xn3q5QHaE7?w=271&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="North Indian Cuisine">
+            <p>Hailing from the Punjab region in North India, Punjabi cuisine is characterized by its robust flavors and generous use of dairy products like ghee, butter, and cream. Dishes like sarson da saag (mustard greens curry), makki di roti (cornmeal flatbread), and lassi (yogurt drink) are staples of Punjabi cuisine.</p>
+        </div>
+
+         <div class="cuisine">
+            <h2>Bengali Cuisine</h2>
+            <img src="https://th.bing.com/th/id/OIP.u5elkT6uO0qV67wSUIxumwHaFm?w=245&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="North Indian Cuisine">
+            <p>Known for its emphasis on seafood, rice, and sweets. Bengali cuisine features dishes like macher jhol (fish curry), kosha mangsho (spicy mutton curry), and sweets like rasgulla and sandesh.</p>
+        </div>
+
+         <div class="cuisine">
+            <h2>Hyderabadi Cuisine</h2>
+            <img src="https://th.bing.com/th/id/OIP.ANi6WqGZVBIbSMTvEAYzcAHaE8?w=292&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="North Indian Cuisine">
+            <p>Influenced by Mughlai and Persian cuisines, Hyderabadi cuisine is famous for its biryanis, particularly the Hyderabadi biryani made with basmati rice, meat (usually chicken or mutton), and a blend of spices.</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>© 2024  Phagyul. All rights reserved.</p>
+    </div>
+</body>
+</html>
